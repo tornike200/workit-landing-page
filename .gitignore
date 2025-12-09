@@ -1,0 +1,96 @@
+# -----------------------------
+# Node / npm / Yarn
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: keep lock files if you want exact versions
+# (Remove the three lock lines above if you prefer to keep them)
+
+# -----------------------------
+# Build output / Dist folders
+# -----------------------------
+dist/
+build/
+out/
+.next/
+.vercel/
+.netlify/
+
+# -----------------------------
+# Environment variables / Secrets
+# -----------------------------
+.env
+.env.*
+*.local
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+*.log.*
+log/
+debug.log
+
+# -----------------------------
+# System files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# IDE / Editor folders
+# -----------------------------
+.vscode/
+.vscode/*
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# -----------------------------
+# Cache & Temp
+# -----------------------------
+.cache/
+.temp/
+tmp/
+temp/
+coverage/
+*.tmp
+*.temp
+
+# -----------------------------
+# Frontend tooling
+# -----------------------------
+/.parcel-cache
+/.sass-cache
+/.eslintcache
+stylelintcache/
+.postcss-cache/
+vite.config.timestamp*
+turbo/
+.storybook-out/
+storybook-static/
+
+# -----------------------------
+# TypeScript
+# -----------------------------
+*.tsbuildinfo
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.pem
+*.key
+*.crt
+*.zip
